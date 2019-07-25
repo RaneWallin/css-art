@@ -5,6 +5,7 @@ const Freddie = _ => {
   return (
     <Background>
       <Hair1 />
+      <Hair2 />
     </Background>
   );
 };
@@ -27,5 +28,16 @@ const Hair1 = styled.div`
   right: 822px;
   width: 139px;
   height: 57px;
+  background-color: #010101;
+`;
+
+const Hair2 = styled.div`
+  position: absolute;
+  border-top-right-radius: 70px;
+  transform: rotate(20deg);
+  top: 10px;
+  height: 104px;
+  width: 171px;
+  right: 744px;
   background-color: #010101;
 `;

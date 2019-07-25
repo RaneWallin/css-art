@@ -6,6 +6,9 @@ const Freddie = _ => {
     <Background>
       <Hair1 />
       <Hair2 />
+      <Hair3 />
+      <Hair4 />
+      <Hair5 />
     </Background>
   );
 };
@@ -39,5 +42,39 @@ const Hair2 = styled.div`
   height: 104px;
   width: 171px;
   right: 744px;
+  background-color: #010101;
+`;
+
+const Hair3 = styled.div`
+  position: absolute;
+  border-top-right-radius: 120%;
+  transform: rotate(10deg);
+  top: 60px;
+  height: 144px;
+  width: 36px;
+  right: 740px;
+  background-color: #010101;
+`;
+
+const Hair4 = styled.div`
+  position: absolute;
+  border-top-left-radius: 120%;
+  transform: rotate(-5deg);
+  top: 30px;
+  height: 144px;
+  width: 50px;
+  left: 603px;
+  background-color: #010101;
+`;
+
+const Hair5 = styled.div`
+  position: absolute;
+  border-top-left-radius: 130%;
+  border-bottom-right-radius: 90%;
+  transform: rotate(5deg);
+  top: 45px;
+  height: 144px;
+  width: 52px;
+  left: 580px;
   background-color: #010101;
 `;

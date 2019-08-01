@@ -98,7 +98,7 @@ const Face1 = styled.div`
   height: 107px;
   width: 210px;
   top: 80px;
-  right: 670px;
+  right: 675px;
   background-color: #bbbbbb;
   //z-index: -1;
 `;
